@@ -28,17 +28,17 @@ nav{
 
     padding: 0 3.5vw;
 }
-nav .nav-center img{
+nav .nav-left img{
     height: 4.5vw;
 }
-nav .nav-left,
+
 .nav-right{
     display: flex;
     align-items: center;
     gap: 3vw;
     font-size: 15px;
 }
-nav .nav-left h4,
+
 .nav-right h4{
     font-weight: 500;
     cursor: pointer;
@@ -65,7 +65,8 @@ nav .nav-left h4,
 .sidebar{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -300px;
+    /* right: 0; */
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.195);
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
@@ -78,7 +79,7 @@ nav .nav-left h4,
     height: 100vh;
     width: 300px;
 
-    right: -300px;
+    
 
     backdrop-filter: blur(10px);
 
@@ -130,13 +131,12 @@ nav .nav-left h4,
     #menu-btn{
         display: block;
     }
-    .nav-left .hideonmobile,
     .nav-right .hideonmobile{
         display: none;
     }
-    nav .nav-center img {
+    nav .nav-left img {
         height: 6.5vw;
-        margin-left: 50px;
+        
     }
     .sidebar #findjob {
         font-size: 2vw;
@@ -155,11 +155,12 @@ nav .nav-left h4,
 }
 
 @media (max-width: 500px) {
-    nav .nav-center img {
+    nav .nav-left img {
         height: 10.5vw;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
     .sidebar{
+        /* display: none; */
         width: 100%;
     }
     .sidebar #findjob {
