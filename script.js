@@ -18,5 +18,5 @@ opensidebar.addEventListener('click', function(){
 })
 const closesidebar = document.querySelector('#hidesidebar')
 closesidebar.addEventListener('click', function(){
-    sidebar.style.right= "-300px"
+    sidebar.style.right= "-100%"
 })
