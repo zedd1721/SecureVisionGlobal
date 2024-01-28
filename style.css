@@ -271,10 +271,155 @@ nav .nav-left img{
 }
 
 
-/* ========= */
+/* ============================= */
 .page2{
     width: 100%;
     height: 100vh;
-    background-color: #77cfed;
+    /* background-color: #77cfed; */
 }
+
+.page2 .page2-part1{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+
+
+}
+
+.page2-part1 .left{
+    height: 100%;
+    width: 50%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 3vw;
+    gap: 35px;
+}
+
+.page2-part1 .left h1{
+    font-weight: 500;
+    font-size: 3.5vw;
+}
+
+.page2-part1 .left #aboutus{
+    font-size: 1vw;
+    padding: 0.5vw 2.3vw;
+    border-radius: 12px;
+    font-weight: 500;
+    border: 2px solid #41a7c9;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.page2-part1 .left #aboutus:hover{
+    color: white;
+    background-color: #41a7c9;
+}
+
+.page2-part1 .left p{
+    width: 90%;
+}
+
+
+.page2-part1 .right{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .right-value{
+    width: 70%;
+    height: 70%;
+    background-color: #d3f4ff;
+    border-radius: 10px;
+
+    display: flex;
+    
+
+}
+
+.right .right-value .valuewrap{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    padding: 0 3vw;
+    gap: 30px;
+}
+
+.right .right-value .valuewrap .value h1{
+    color: #00B074;
+    font-weight: 500;
+}
+
+.page2 .page2-part2{
+    width: 100%;
+    height: 50vh;
+    /* background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.page2-part2>h1{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.page2-part2 .benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2.5vw;
+    gap: 2vw;
+    /* background-color: rebeccapurple; */
+}
+
+.benefits .content-ben{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-ben .val{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 1vh;
+}
+
+.content-ben .val p{
+    width: 90%;
+}
+
+.benefits .content-ben .val>h1{
+    color: #00B074;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* ============================ */
+
 
