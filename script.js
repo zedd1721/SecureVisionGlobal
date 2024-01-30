@@ -1,14 +1,9 @@
-// function showSideBar(){
-//     const sidebar = document.querySelector(".sidebar");
-//     // sidebar.style.display = 'flex'
-//     sidebar.style.right= "0px";
-// }
+var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+    autoplay: true,
+  });
 
-// function hideSideBar(){
-//     const sidebar = document.querySelector(".sidebar");
-//     // sidebar.style.display = 'none';
-//     sidebar.style.right= "-300px"
-// }
 
 const opensidebar = document.querySelector("#menu-btn")
 const sidebar = document.querySelector('.sidebar')

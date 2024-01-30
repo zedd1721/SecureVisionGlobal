@@ -504,6 +504,11 @@ nav .nav-left img{
 
 
 @media (max-width: 450px) {
+    .page2 {
+        width: 100%;
+        height: 185vh;
+    }
+
     .page2 .page2-part1 {
         /* flex-wrap: nowrap; */
         flex-direction: column;
@@ -580,3 +585,159 @@ nav .nav-left img{
 /* ===================================== */
 
 
+.clients-wrapper{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.clients{
+    padding: 0 2vw;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.clients h1{
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========SLIDER======== */
+
+.swiper {
+    width: 27vw;
+    height: 17vw;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: white;
+    
+}
+
+.swiper-slide:nth-child(even) {
+    border: 4px solid #1b8db3;
+}
+
+.swiper-slide:nth-child(odd) {
+    border: 4px solid #00B074;
+}
+
+.swiper-slide p {
+    color: rgb(66, 66, 66);
+}
+
+.swiper-slide #car,
+.swiper-slide #eureka,
+.swiper-slide #fsd,
+.swiper-slide #fcs,
+.swiper-slide #platinum{
+    height: 6vw;
+}
+
+.swiper-slide #hexa,
+.swiper-slide #techmahindra{
+    height: 10vw;
+}
+.swiper-slide #icici{
+    height: 4.8vw;
+}
+.swiper-slide #sutherland{
+    height: 3.5vw;
+}
+
+
+@media (max-width: 800px) {
+    .swiper {
+        width: 32vw;
+        height: 21vw;
+    }
+    .swiper-slide #car, 
+    .swiper-slide #eureka, 
+    .swiper-slide #fsd, 
+    .swiper-slide #fcs, 
+    .swiper-slide #platinum {
+        height: 7.5vw;
+    }
+
+    .swiper-slide #hexa, 
+    .swiper-slide #techmahindra {
+        height: 14vw;
+    }
+    .swiper-slide #icici {
+        height: 6vw;
+    }
+    .swiper-slide #sutherland {
+        height: 4.3vw;
+    }
+
+
+    .clients h1 {
+        font-size: 4vw;
+    }
+
+    .clients {
+        padding: 0px 2.5vw;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .clients-wrapper{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 110px;
+    }
+    .clients{
+        width: 100%;
+        padding: 0 4.5vw;
+    }
+    .clients h1 {
+        font-size: 11vw;
+        
+    }
+    .swiper {
+        width: 50vw;
+        height: 75vw;
+    }
+    .swiper-slide #car, 
+    .swiper-slide #eureka, 
+    .swiper-slide #fsd, 
+    .swiper-slide #fcs, 
+    .swiper-slide #platinum {
+        height: 12.5vw;
+    }
+    .swiper-slide #hexa, 
+    .swiper-slide #techmahindra {
+        height: 24vw;
+    }
+    .swiper-slide #icici {
+        height: 9vw;
+    }
+    .swiper-slide #sutherland {
+        height: 6.5vw;
+    }
+    
+}
