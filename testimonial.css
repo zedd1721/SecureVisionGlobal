@@ -18,6 +18,7 @@ html, body{
 .main{
     width: 100%;
     min-height: 100vh;
+    /* overflow-x:hidden; */
 }
 
 nav{
@@ -211,6 +212,73 @@ nav .nav-left img{
         font-size: 10vw;
     }
 }
+
+
+
+
+
+.bcgblob{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    z-index: -10;
+    overflow-x: hidden;
+}
+
+.b1{
+    border-radius: 43% 57% 41% 59% / 25% 32% 68% 75% ;
+    background-image: linear-gradient(to bottom right, #41a7c9, #00B074);
+    left: -90px;
+    top: 200px;
+}
+.b2{
+    border-radius: 43% 57% 41% 59% / 25% 32% 68% 75% ;
+    background-image: linear-gradient(to bottom left, #41a7c9, #00B074);
+    right: 150px;
+    top: 90%;
+}
+
+.b3{
+    border-radius: 43% 57% 41% 59% / 25% 32% 68% 75% ;
+    background-image: linear-gradient(to top left, #41a7c9, #00B074);
+    left: 150px;
+    top: 150%;
+}
+
+
+@media (max-width: 800px) {
+    .bcgblob{
+        height: 250px;
+        width: 250px;
+    }
+    .b1{
+        top: 300px;
+    }
+    .b2{
+        top: 180%;
+        right: 100px;
+    }
+    .b3{
+        left: 70px;
+        top: 300%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .bcgblob{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 .timeline{
     position: relative;
