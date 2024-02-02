@@ -4,7 +4,15 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: true,
   });
 
+  const testimonial = document.querySelector('#testimonials');
+  testimonial.addEventListener('click', ()=>{
+      window.location.href = 'testimonial.html';
+  })    
 
+  const sidetesti = document.querySelector('#sidetesti');
+  sidetesti.addEventListener('click', ()=>{
+    window.location.href = 'testimonial.html';
+    }) 
 const opensidebar = document.querySelector("#menu-btn")
 const sidebar = document.querySelector('.sidebar')
 opensidebar.addEventListener('click', function(){

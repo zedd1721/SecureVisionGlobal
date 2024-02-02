@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/Assests/Fonts/POPPINS-REGULAR.TTF);
+}
+
 *{
     margin: 0%;
     padding: 0;
