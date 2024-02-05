@@ -23,13 +23,24 @@ var swiper = new Swiper(".mySwiper", {
     sideabout.addEventListener('click', ()=>{
         window.location.href = 'about.html';
     })
-const opensidebar = document.querySelector("#menu-btn")
-const sidebar = document.querySelector('.sidebar')
-opensidebar.addEventListener('click', function(){
-    sidebar.style.right= "0px"
-    // sidebar.style.display ='flex'
-})
-const closesidebar = document.querySelector('#hidesidebar')
-closesidebar.addEventListener('click', function(){
-    sidebar.style.right= "-100%"
-})
+
+    const contact = document.querySelector('#contact');
+    contact.addEventListener('click', ()=>{
+        window.location.href = 'contact.html';
+    })    
+
+    const sidecontact = document.querySelector('#sidecontact');
+    sidecontact.addEventListener('click', ()=>{
+        window.location.href = 'contact.html';
+    }) 
+
+    const opensidebar = document.querySelector("#menu-btn")
+    const sidebar = document.querySelector('.sidebar')
+    opensidebar.addEventListener('click', function(){
+        sidebar.style.right= "0px"
+        // sidebar.style.display ='flex'
+    })
+    const closesidebar = document.querySelector('#hidesidebar')
+    closesidebar.addEventListener('click', function(){
+        sidebar.style.right= "-100%"
+    })

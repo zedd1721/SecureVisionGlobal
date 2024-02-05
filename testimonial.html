@@ -111,7 +111,7 @@
 					<a href="/testimonial.html">Testimonial</a>				
 					<a href="#">Find a Job</a>				
 					<a href="/about.html">About</a>					
-					<a href="#">Contact</a>
+					<a href="/testimonial.html">Contact</a>
 				</p>
 				<p class="footer-company-name">SecureVisionGlobal © 2023</p>
 			</div>
@@ -165,6 +165,17 @@
         sideabout.addEventListener('click', ()=>{
             window.location.href = 'about.html';
         })
+
+
+        const contact = document.querySelector('#contact');
+        contact.addEventListener('click', ()=>{
+            window.location.href = 'contact.html';
+        })    
+
+        const sidecontact = document.querySelector('#sidecontact');
+        sidecontact.addEventListener('click', ()=>{
+            window.location.href = 'contact.html';
+        }) 
 
         const opensidebar = document.querySelector("#menu-btn")
         const sidebar = document.querySelector('.sidebar')
