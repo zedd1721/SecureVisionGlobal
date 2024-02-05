@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Assests/favicon.ico" type="image/x-icon">
+    <title>Secure Vision Global</title>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+
+            <div class="nav-left">
+                <img src="/Assests/logo1.jpg" alt="Company Logo">
+            </div>
+            <div class="nav-right">
+                <h4 class="hideonmobile">Home</h4>
+                <h4 class="hideonmobile">Testimonials</h4>
+                <h4 class="hideonmobile">Jobs<span><i class="ri-arrow-down-s-line"></i></span></h4>
+                <h4 class="hideonmobile">About</h4>
+                <h4 class="hideonmobile">Contact</h4>
+                <button id="findjob" class="hideonmobile">Find a Job <span><i
+                            class="ri-arrow-right-line"></i></span></button>
+                <svg id="menu-btn" style="cursor: pointer;" onclick="showSideBar()" xmlns="http://www.w3.org/2000/svg"
+                    height="24" viewBox="0 -960 960 960" width="24">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+
+        </nav>
+        <div class="sidebar">
+            <svg id="hidesidebar" style="cursor: pointer;" onclick="hideSideBar()" xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 -960 960 960" width="24">
+                <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+            <div class="sidebar-menu">
+                <h4>Home</h4>
+                <h4>Testimonials</h4>
+                <h4>Jobs<span><i class="ri-arrow-down-s-line"></i></span></h4>
+                <h4>About</h4>
+                <h4>Contact</h4>
+                <button id="findjob">Find a Job <span><i class="ri-arrow-right-line"></i></span></button>
+            </div>
+        </div>
+        <div class="page1">
+            <section id="contact">
+                <div class="contact-box">
+                    <div class="contact-links">
+                        <h2>CONTACT</h2>
+                        <div class="links">
+                            <div class="link">
+                                <a target="_blank" href="https://www.linkedin.com/feed/" <i class="ri-linkedin-fill"></i></a>
+                            </div>
+                            <div class="link">
+                                <a target="_blank" href="https://www.facebook.com/people/Secure-Vision-Global/61552253770120/?sfnsn=wiwspwa&mibextid=RUbZ1f" <i class="ri-facebook-circle-fill"></i></a>
+                            </div>
+                            <div class="link">
+                                <a target="_blank" href="https://www.instagram.com/securevisionglobal2023/" <i class="ri-instagram-line"></i></a>
+                            </div>
+                            <div class="link">
+                                <a target="_blank" href="https://wa.link/vwh1tn" <i class="ri-whatsapp-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form>
+                            <div class="form-item">
+                                <input type="text" name="sender" required>
+                                <label>Name</label>
+                            </div>
+                            <div class="form-item">
+                                <input type="text" name="email" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="form-item">
+                                <input type="text" name="mobile" required>
+                                <label>Phone</label>
+                            </div>
+                            <div class="form-item">
+                                <textarea class="" name="message" required></textarea>
+                                <label>Message</label>
+                            </div>
+                            <button class="submit-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <div class="location">
+            <h2 id="map-h2">
+                Locate Us On Google Maps
+            </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.610006592435!2d72.94309957387381!3d19.036899253201472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c5532a0bf975%3A0xd5374c1fa6b2cdae!2sSecure%20Vision%20Global!5e0!3m2!1sen!2sin!4v1707109858308!5m2!1sen!2sin" width="80%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
