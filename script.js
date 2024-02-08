@@ -4,6 +4,16 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: true,
   });
 
+  const home = document.getElementById("home");
+  home.addEventListener("click", () => {
+    window.location.href = "index.html";
+  });
+  
+  const sidehome = document.querySelector("#sidehome");
+  sidehome.addEventListener("click", () => {
+    window.location.href = "index.html";
+  });
+
   const testimonial = document.querySelector('#testimonials');
   testimonial.addEventListener('click', ()=>{
       window.location.href = 'testimonial.html';
