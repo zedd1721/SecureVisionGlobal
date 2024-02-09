@@ -303,6 +303,9 @@ textarea {
   padding: 12px;
   font-size: clamp(15px, 1.5vw, 18px);
 }
+textarea{
+  resize: none;
+}
 
 input:focus + label,
 input:valid + label,
