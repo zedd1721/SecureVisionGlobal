@@ -118,7 +118,7 @@ nav .nav-left img {
   font-weight: 500;
   cursor: pointer;
 }
-.sidebar #findjob {
+.sidebar #sidefindjob {
   background-color: white;
   color: black;
   padding: 0.7vw 2vw;
@@ -130,7 +130,7 @@ nav .nav-left img {
 
   cursor: pointer;
 }
-.sidebar #findjob:hover {
+.sidebar #sidefindjob:hover {
   background-color: #41a7c9;
   color: white;
   border: 2px solid #41a7c9;
@@ -152,7 +152,7 @@ nav .nav-left img {
   nav .nav-left img {
     height: 8vw;
   }
-  .sidebar #findjob {
+  .sidebar #sidefindjob {
     font-size: 2vw;
     padding: 1.5vw 4vw;
   }
@@ -181,7 +181,7 @@ nav .nav-left img {
     width: 100%;
     right: -100%;
   }
-  .sidebar #findjob {
+  .sidebar #sidefindjob {
     font-size: 4vw;
   }
   .page1 .page1-content .overlay .tagline {
@@ -710,6 +710,11 @@ nav .nav-left img {
     height: 6.5vw;
   }
 }
+
+
+
+
+
 
 .footer-distributed {
   /* background: #282828; */

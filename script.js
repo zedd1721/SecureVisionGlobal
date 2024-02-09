@@ -54,6 +54,16 @@ sidecontact.addEventListener("click", () => {
   window.location.href = "contact.html";
 });
 
+const findjob = document.querySelector('#findjob');
+findjob.addEventListener("click", () => {
+  window.location.href = "jobs.html";
+});
+
+const sidefindjob = document.querySelector('#sidefindjob');
+sidefindjob.addEventListener('click', ()=>{
+  window.location.href = "jobs.html";
+})
+
 const opensidebar = document.querySelector("#menu-btn");
 const sidebar = document.querySelector(".sidebar");
 opensidebar.addEventListener("click", function () {
